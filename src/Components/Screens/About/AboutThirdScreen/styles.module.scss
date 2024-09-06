@@ -1,0 +1,142 @@
+.section {
+    .title {
+        margin-top: 75px;
+        color: #FFF;
+        font-family: Ristretto Pro;
+        font-size: 70px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 3.5px;
+        text-transform: uppercase;
+
+        span {
+            color: #FFCF52;
+        }
+    }
+
+    .blocks {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        margin-top: 80px;
+        max-width: 1470px;
+        margin-right: 100px;
+
+        @media screen and (max-height: 800px) {
+            margin-top: 30px;
+        }
+
+        @media screen and (max-width: 1300px) {
+            display: flex;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-right: 0;
+
+        }
+
+        .item {
+            max-height: 395px;
+            height: 100%;
+            border: 1px solid rgba($color: #fff, $alpha: 0.1);
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            flex-direction: column;
+            padding: 50px 50px 45px;
+            transition: .3s;
+
+            @media screen and (max-width: 1300px) {
+                width: 50%;
+                padding: 30px;
+                height: 160px;
+                padding-bottom: 10px;
+                padding-top: 15px;
+                justify-content: flex-start;
+                &:last-child .text {
+                    width: 100%;
+                }
+            }
+
+            @media screen and (max-width: 1300px) {
+                padding: 10px 5px;
+            }
+
+            .value {
+                color: #FFF;
+                font-family: Ristretto Pro;
+                font-size: 70px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                text-transform: uppercase;
+                margin-bottom: 80px;
+
+                @media screen and (max-height: 800px) {
+                    margin-bottom: 0px;
+                }
+
+                @media screen and (max-width: 1300px) {
+                    color: #FFF;
+                    text-align: center;
+                    font-family: Ristretto Pro;
+                    font-size: 42px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    text-transform: uppercase;
+                    margin: 0 auto 10px;
+
+
+                }
+            }
+
+            .text {
+                color: #FFF;
+                font-family: Ristretto Pro;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                letter-spacing: 0.72px;
+                text-transform: uppercase;
+                transition: .3s;
+
+                @media screen and (max-width: 1300px) {
+                    width: 70%;
+                    margin: 0 auto;
+                    text-align: center;
+
+                }
+            }
+
+            .title {
+                color: #FFF;
+                font-family: Ristretto Pro;
+                font-size: 70px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                letter-spacing: 3.5px;
+                text-transform: uppercase;
+
+                span {
+                    color: #FFCF52;
+                }
+            }
+
+            &:hover {
+                background: #FFCF52;
+                cursor: pointer;
+
+                .value,
+                .text {
+                    color: #242424;
+                }
+            }
+        }
+    }
+}

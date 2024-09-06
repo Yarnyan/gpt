@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+.section {
+    .prosContainer {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-top: 250px;
+        justify-content: space-around;
+        @media screen and (max-width: 700px) {
+            margin-top: 40px;
+            padding: 0 10px;
+        }
+    }
+    .image {
+        position: absolute;
+        bottom: 0;
+        right: 0px;
+        height: 100%;
+        z-index: 1;
+
+        @media screen and (max-width: 1300px) {
+            position: relative;
+            width: 100%;
+            height: auto;
+            
+        }
+
+        @media screen and (max-width: 700px) {
+            position: relative;
+            width: 100%;
+            height: auto;
+            max-width: 500px;
+            margin: 0 auto;
+            display: block;
+            top: -150px;
+            margin-bottom: -100px;
+        }
+    }
+
+    .title {
+        color: #FFF;
+        font-family: Ristretto Pro;
+        font-size: 70px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 3.5px;
+        text-transform: uppercase;
+        margin-top: 80px;
+        position: relative;
+        z-index: 10;
+
+        span {
+            color: #FFCF52;
+        }
+
+        @media screen and (max-width: 1300px) {
+            text-align: center;
+        }
+    }
+
+    .subtitle {
+        color: #FFF;
+        font-family: Manrope;
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 300;
+        position: relative;
+        z-index: 10;
+        line-height: 35px;
+        max-width: 350px;
+        @media screen and (max-width: 1300px) {
+            text-align: center;
+            margin: 0 auto;
+        }
+    }
+
+    .pluses {
+        position: absolute;
+        bottom: 75px;
+        left: 50px;
+        display: flex;
+        align-items: center;
+        width: 360px;
+        justify-content: space-between;
+        z-index: 10;
+
+
+        .item {
+            display: flex;
+            align-items: center;
+
+            @media screen and (max-width: 1300px) {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            p {
+                color: #FFF;
+                font-family: Ristretto Pro;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                letter-spacing: 0.72px;
+                text-transform: uppercase;
+                max-width: 112px;
+                @media screen and (max-width: 1300px) {
+                    max-width: 150px !important;
+                }
+            }
+
+            &:nth-child(2) {
+                p {
+                    max-width: 65px;
+                    @media screen and (max-width: 1300px) {
+                        max-width: 130px !important;
+                    }
+                }
+            }
+
+            .iconWrap {
+                width: 50px;
+                height: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: 1px solid rgba($color: #fff, $alpha: 0.1);
+                margin-right: 15px;
+                @media screen and (max-width: 1300px) {
+                    margin-right: 0;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+
+        @media screen and (max-width: 1300px) {
+            width: 100%;
+            position: relative;
+            left: 0;
+            bottom: 0;
+            max-width: 320px;
+            margin: 0 auto;
+        }
+    }
+}

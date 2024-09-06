@@ -1,0 +1,42 @@
+.title {
+    color: #fff;
+    font-family: Ristretto Pro;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 3.5px;
+    text-transform: uppercase;
+    margin-top: 250px;
+    width: 420px;
+    position: relative;
+    z-index: 100;
+
+    span {
+        color: #FFCF52;
+    }
+
+    @media screen and (max-width: 1300px) {
+        text-align: center;
+        width: auto;
+        max-width: 300px;
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+}
+
+.image {
+    position: absolute;
+    bottom: 120px;
+    right: 0;
+
+    @media screen and (max-width: 1300px) {
+        position: relative;
+        width: 100%;
+        right: 0;
+        height: auto;
+        bottom: 0;
+        margin-bottom: 20px;
+    }
+}

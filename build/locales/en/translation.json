@@ -1,0 +1,231 @@
+{
+    "navbar": {
+        "main": "Home",
+        "profile": "Personal account",
+        "fond": "Fund",
+        "bot": "Trading bot",
+        "about": "About us",
+        "news": "News",
+        "reviews": "Reviews",
+        "faq": "FAQ",
+        "contacts": "Contacts"
+    },
+    "mainFirstScreen": {
+        "text": "Digital asset preservation and Augmentation platform"
+    },
+    "mainSecondScreen": {
+        "tradingBotText": "Unlock Sales Efficiency with Our GPT-4 Powered Smart Manager",
+        "title": "Introducing a revolutionary sales management solution that harnesses the power of GPT-4 to streamline your operations, boost productivity, and drive remarkable growth for your business",
+        "buttonText": "More about Trading Bot"
+    },
+    "botFirstScreen": {
+        "title": "AMI FINANCE TRADING BOT",
+        "subtitle": "Managing your assets with artificial intelligence",
+        "pluses": {
+            "first": "FULL AUTOMATION",
+            "second": "HIGH INCOME"
+        }
+    },
+    "botSecondScreen": {
+        "title": {
+            "span": "LET'S CONNECT A TRADING BOT",
+            "text": "To THE BEST CRYPTO SERVICES"
+        },
+        "subtitle": "using API integration",
+        "text": "You will be able to entrust transactions to a smart bot, whose work is based on artificial intelligence",
+        "buttonText": "Connect the bot"
+    },
+    "botThirdScreen": {
+        "title": {
+            "text_first_part": "TRADING BOT",
+            "span": "AMI FINANCE",
+            "text_second_part": "IN NUMBERS"
+        },
+        "tabs": {
+            "tab1": "monthly yield",
+            "tab2": "capital protection",
+            "tab3": "monthly yield",
+            "tab4": "capital protection",
+            "tab5": "monthly yield"
+        }
+    },
+    "botFourthScreen": {
+        "title": "CONNECT TO AMI FINANCE TRADING BOT",
+        "buttonText": "Start"
+    },
+    "aboutFirstScreen": {
+        "title": "About US",
+        "subtitle": "Our goal is to become the most profitable investment fund in the world",
+        "text": "– a closed community that helps its clients to save and increase capital",
+        "span": "AMI FINANCE",
+        "buttonText": "Go to your personal account"
+    },
+    "aboutSecondScreen": {
+        "title": "AMI FINANCE",
+        "subtitle": "is the first and only fund that gives individuals access to the world of high-yield financial instruments",
+        "text": {
+            "part1": "Our team of professional traders and analysts consistently generates profits both through the classic stock market and through the digital asset market",
+            "part2": "Our mission is to help you feel confident in the future, realize your dreams and feel freedom through improving the quality of life"
+        },
+        "buttonText": "Go to your personal account"
+    },
+    "aboutThirdScreen": {
+        "title": {
+            "part1": "ABOUT",
+            "span": "AMI FINANCE",
+            "part2": "IN NUMBERS"
+        },
+        "pluses": {
+            "1": "YEARS ON THE MARKET",
+            "2": "satisfied investors",
+            "3": "monthly profitability",
+            "4": "investor income",
+            "5": "capital protection",
+            "6": "professional investors and analysts"
+        }
+    },
+    "aboutFourthScreen": {
+        "title": {
+            "text": "OUR INVESTORS EARNED MORE",
+            "span": "$10,000,000"
+        },
+        "pluses": {
+            "first": "stable monthly return",
+            "second": "investment protection"
+        }
+    },
+    "aboutFifthScreen": {
+        "title": {
+            "part1": "USE",
+            "span": "ARTIFICIAL INTELLIGENCE",
+            "part2": "IN TRADING STRATEGIES"
+        },
+        "buttonText": "Go to your personal account"
+    },
+    "fondFirstScreen": {
+        "title": {
+            "text": "24/7 Availability",
+            "span": "Always at Your Service"
+        }
+    },
+    "fondSecondScreen": {
+        "title": "Redefine Operational Efficiency"
+    },
+    "fondThirdScreen": {
+        "title": "Multilingual Mastery for Global Reach",
+        "subtitle": "We follow trends, develop and use our own latest strategies",
+        "buttonText": "Connect to the fund"
+    },
+    "fondFourthScreen": {
+        "title": {
+            "text": "Automation Meets Intelligent Communication",
+            "span": "WITHOUT RISKS"
+        },
+        "subtitle": "Our team of analysts will assemble a balanced and stable portfolio",
+        "buttonText": "Connect to the fund"
+    },
+    "fondFifthScreen": {
+        "title": "Data-Driven Insights for Better Decision-Making",
+        "steps": {
+            "first": "Registration in the personal account",
+            "second": "Replenishment of the balance",
+            "third": "Connecting a suitable deposit by pressing one button"
+        }
+    },
+    "fondSixthScreen": {
+        "title": {
+            "text_first_part": "Elevate Your Sales Team's Productivity"
+        },
+        "tabs": {
+            "tab1": "monthly yield",
+            "tab2": "capital protection",
+            "tab3": "monthly yield",
+            "tab4": "capital protection",
+            "tab5": "monthly yield"
+        }
+    },
+    "fondSeventhScreen": {
+        "title": "CONNECT TO AMI FINANCE FUND",
+        "buttonText": "Start"
+    },
+    "fondNineScreen": {
+        "title": "Unlock Your Sales Potential with Our Smart Manager"
+    },
+    "contactsScreen": {
+        "title": "OUR CONTACTS",
+        "contactsItems": {
+            "first": "Address",
+            "second": "E-mail",
+            "third": "Telegram"
+        },
+        "buttonText": "Contact us"
+    },
+    "reviews": {
+        "title": "REVIEWS",
+        "subtitle": "Here you can find the current reviews of our customers"
+    },
+    "news": {
+        "title": "NEWS",
+        "subtitle": "This section contains the latest company news"
+    },
+    "faq": {
+        "title": "FAQ",
+        "subtitle": "Here you can get answers to the most frequent questions"
+    },
+    "Pros": {
+        "Pros1": {
+            "title": "Our Smart Manager works around the clock, ensuring your clients receive prompt attention, no matter the time or day.",
+            "subtitle": "Never Sleeps, Never Rests"
+        },
+        "Pros2": {
+            "title": "Forget about vacations, sick leaves, or personal issues – our AI-powered assistant is always ready to handle your sales tasks with unwavering dedication",
+            "subtitle": "Unwavering Dedication"
+        },
+        "Pros3": {
+            "title": "Eliminate the risk of human errors or mood swings. Our Smart Manager maintains a consistent level of high performance, day in and day out.",
+            "subtitle": "Consistent High Performance"
+        }
+    },
+    "Redefine": {
+        "Redefine1": {
+            "subtitle": "Minimal Operational Costs",
+            "title": "Forget the overhead of employee salaries, benefits, and office space. Our Smart Manager operates with minimal costs, making it a highly cost-effective solution for your business."
+        },
+        "Redefine2": {
+            "subtitle": "Streamlined Processes",
+            "title": "By automating key sales tasks, our Smart Manager streamlines your operations, reducing the time and resources required to manage your sales pipeline."
+        },
+        "Redefine3": {
+            "subtitle": "Unparalleled Speed and Accuracy",
+            "title": "Leveraging the power of GPT-4, our Smart Manager delivers lightning-fast response times and unmatched accuracy in client communications and data analysis."
+        }
+    },
+    "GlobalReach": {
+        "GlobalReach1": {
+            "subtitle": "Worldwide Accessibility",
+            "title": "Our Smart Manager is designed to support a wide range of languages, enabling you to engage with clients from diverse backgrounds and locations."
+        },
+        "GlobalReach2": {
+            "subtitle": "Seamless Translation",
+            "title": "Eliminate language barriers and communicate effortlessly with clients across the globe, thanks to our advanced translation capabilities."
+        },
+        "GlobalReach3": {
+            "subtitle": "Personalized Interactions",
+            "title": "Our AI-powered assistant adapts its communication style to each client, ensuring a personalized and engaging experience."
+        }
+    },
+    "Automation": {
+        "Automation1": {
+            "subtitle": "Automated Outreach",
+            "title": "Our Smart Manager can autonomously initiate and manage sales calls, emails, and other communications, freeing up your team to focus on higher-value tasks."
+        },
+        "Automation2": {
+            "subtitle": "Contextual Responses",
+            "title": "Leveraging the power of GPT-4, our AI-powered assistant can analyze client needs, provide tailored solutions, and engage in natural, intelligent conversations."
+        },
+        "Automation3": {
+            "subtitle": "Seamless Integration",
+            "title": "Seamlessly integrate our Smart Manager with your existing CRM and sales tools, creating a unified and efficient sales ecosystem."
+        }
+    }
+}

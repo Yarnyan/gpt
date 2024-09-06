@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+
+.title {
+    text-align: center;
+    margin-top: 80px;
+    color: #FFF;
+    text-align: center;
+    font-family: Ristretto Pro;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 3.5px;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    @media screen and (max-width: 1300px) {
+        margin-bottom: 15px;
+    }
+    @media screen and (max-height: 800px) {
+        margin-bottom: 20px;
+    }
+}
+
+.subtitle {
+    text-align: center;
+    max-width: 440px;
+    width: 100%;
+    margin: 0 auto;
+    color: #FFF;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 35px;
+
+    @media screen and (max-width: 1300px) {
+        max-width: 280px;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 28px;
+        margin-bottom: 65px;
+    }
+}
+
+.slider {
+    position: absolute !important;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+    @media screen and (max-width: 1300px) {
+        position: relative !important;
+        margin-bottom: 200px;
+    }
+
+    .slide {
+        padding: 60px;
+        padding-top: 56px;
+        border-top: 1px solid rgba($color: #FFF, $alpha: 0.09);
+        border-right: 1px solid rgba($color: #FFF, $alpha: 0.09);
+
+        @media screen and (max-width: 1300px) {
+            width: 100% !important;
+            padding: 30px 20px;
+        }
+
+        @media screen and (max-height: 800px) {
+            padding: 30px 20px;
+        }
+
+        .text {
+            color: #FFF;
+            text-align: justify;
+            font-family: Manrope;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            margin-bottom: 50px;
+        }
+
+        .author {
+            display: flex;
+            align-items: center;
+
+            img {
+                margin-right: 15px;
+            }
+
+            .name {
+                color: #FFF;
+                font-family: Ristretto Pro;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                letter-spacing: 0.72px;
+                text-transform: uppercase;
+            }
+
+            .locage {
+                color: #FFF;
+                font-family: Manrope;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+                opacity: 0.5;
+                padding-right: 14px;
+                border-right: 1px solid rgba($color: #FFF, $alpha: 0.09);
+                margin-right: 14px;
+            }
+
+            .bottom {
+                display: flex;
+                align-items: center;
+            }
+
+            .date {
+                color: #FFF;
+                font-family: Manrope;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+                opacity: 0.5;
+            }
+        }
+    }
+}

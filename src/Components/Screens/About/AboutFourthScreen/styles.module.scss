@@ -1,0 +1,91 @@
+.section {
+    .image {
+        position: absolute;
+        right: 50px;
+        bottom: 0px;
+        width: 77%;
+        @media screen and (max-width: 1300px) {
+            position: relative;
+            right: 0;
+            bottom: 0;
+            width: 100%;
+            top: -50px;
+        }
+    }
+
+    .title {
+        color: #FFF;
+        font-family: Ristretto Pro;
+        font-size: 70px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 3.5px;
+        text-transform: uppercase;
+        width: 410px;
+        margin-top: 80px;
+
+        span {
+            color: #FFCF52;
+        }
+    }
+
+    .pluses {
+        position: absolute;
+        left: 50px;
+        bottom: 80px;
+        display: flex;
+        align-items: flex-start;
+
+        @media screen and (max-width: 1300px) {
+            position: relative;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .item {
+            padding: 20px 0;
+            margin-right: 50px;
+            width: 100px;
+            border-top: 1px solid rgba($color: #fff, $alpha: 0.1);
+            border-bottom: 1px solid rgba($color: #fff, $alpha: 0.1);
+            height: 185px;
+
+            
+        @media screen and (max-width: 1300px) {
+            width: 40%;
+            text-align: center;
+            margin-right: 0;
+
+            &:first-child {
+                margin-right: 20px;
+            }
+        }
+
+            .value {
+                color: #FFCF52;
+                font-family: Ristretto Pro;
+                font-size: 70px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                text-transform: uppercase;
+            }
+
+            .text {
+                color: #FFF;
+                font-family: Ristretto Pro;
+                font-size: 19px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                letter-spacing: 0.72px;
+                text-transform: uppercase;
+            }
+        }
+    }
+}

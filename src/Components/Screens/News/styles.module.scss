@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+.title {
+    text-align: center;
+    margin-top: 80px;
+    color: #FFF;
+    text-align: center;
+    font-family: Ristretto Pro;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 3.5px;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+
+    @media screen and (max-width: 1300px) {
+        margin-bottom: 20px;
+        margin-top: 40px;
+    }
+}
+
+.subtitle {
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    color: #FFF;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 35px;
+
+    @media screen and (max-width: 1300px) {
+        color: #FFF;
+        text-align: center;
+        font-family: Manrope;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 28px;
+        max-width: 280px;
+        margin-bottom: 30px;
+    }
+}
+
+.slider {
+    position: absolute !important;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+
+    @media screen and (max-width: 1300px) {
+        position: relative !important;
+    }
+
+    .slide {
+        padding: 60px;
+        padding-top: 56px;
+        border-top: 1px solid rgba($color: #FFF, $alpha: 0.09);
+        border-right: 1px solid rgba($color: #FFF, $alpha: 0.09);
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+        background-position: center !important;
+        max-height: 506px;
+        height: 506px;
+        position: relative;
+
+
+        @media screen and (max-width: 1300px) {
+            padding: 20px;
+            height: 230px;
+        }
+
+        .top {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+
+            .theme,
+            .date {
+                color: #ffffff7e;
+                font-family: Manrope;
+                font-size: 13px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+                padding: 10px 20px;
+                border: 1px solid rgba(255, 255, 255, 0.07);
+                background: rgba(255, 255, 255, 0.03);
+                backdrop-filter: blur(5px);
+
+                @media screen and (max-width: 700px) {
+                    font-size: 10px;
+                }
+
+                @media screen and (max-width: 360px) {
+                    font-size: 8px;
+                }
+            }
+        }
+
+        .title {
+            position: absolute;
+            bottom: 0;
+            left: 60px;
+            color: #FFF;
+            font-family: Manrope;
+            font-size: 19px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 35px;
+            max-width: 420px;
+            text-align: left;
+            width: 60%;
+
+            @media screen and (max-width: 1300px) {
+                bottom: 20px;
+                left: 20px;
+                color: #FFF;
+                font-family: Manrope;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: 19px;
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+        }
+
+        .button {
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            z-index: 10;
+            border: 1px solid rgba($color: #fff, $alpha: 0.1);
+            transition: .3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            bottom: 70px;
+            right: 60px;
+
+            @media screen and (max-width: 1300px) {
+                right: 20px;
+                bottom: 20px;
+            }
+        }
+
+        &:hover {
+            svg path {
+                fill: #242424;
+            }
+
+            a {
+                border: 1px solid transparent;
+                background: #FFCF52;
+            }
+
+            cursor: pointer;
+        }
+    }
+}

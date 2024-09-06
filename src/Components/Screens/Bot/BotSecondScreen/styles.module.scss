@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+.section {
+    .image {
+        position: absolute;
+        top: 60px;
+        right: 70px;
+        width: 70%;
+
+        @media screen and (max-width: 1300px) {
+            position: relative;
+            top: 0;
+            right: 0;
+            left: -50px;
+            width: 110%;
+        }
+    }
+
+    .title {
+        color: #fff;
+        font-family: Ristretto Pro;
+        font-size: 70px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 3.5px;
+        text-transform: uppercase;
+        max-width: 395px;
+        margin-top: 76px;
+        position: relative;
+        z-index: 10;
+
+        span {
+            color: #FFCF52;
+        }
+
+        @media screen and (max-width: 1300px) {
+            max-width: 280px;
+        }
+    }
+
+    .subtitle {
+        color: #FFF;
+        font-family: Manrope;
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 35px;
+        position: relative;
+        z-index: 10;
+
+        @media screen and (max-width: 1300px) {
+            margin: 0 auto;
+            max-width: 300px;
+            text-align: center;
+            margin-bottom: 25px;
+        }
+    }
+
+    .text {
+        position: absolute;
+        bottom: 185px;
+        left: 50px;
+        color: #FFF;
+        font-family: Manrope;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        width: 335px;
+        @media screen and (max-width: 1300px) {
+            position: relative;
+            bottom: 0;
+            left: 0;
+            text-align: center;
+            max-width: 250px;
+            margin: 0 auto;
+            margin-bottom: 30px;
+        }
+    }
+}

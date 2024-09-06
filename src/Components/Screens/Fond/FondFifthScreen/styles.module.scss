@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+.section {
+    position: relative;
+    .title {
+        margin-top: 80px;
+        color: #FFCF52;
+        font-family: Ristretto Pro;
+        font-size: 70px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 3.5px;
+        text-transform: uppercase;
+        margin-bottom: 51px;
+        @media screen and (max-width: 700px) {
+            margin-bottom: 0px;
+        }
+    }
+
+    .RedefineContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        max-width: 400px;
+        height: 60%;
+        @media screen and (max-width: 700px) {
+            padding: 0 10px;
+            max-width: 100%;
+        }
+    }
+
+    .image {
+        position: absolute;
+        bottom: 24%;
+        right: 6%;
+        height: auto;
+        width: 60%;
+        border-radius: 24px;
+
+        @media screen and (max-width: 1300px) {
+            position: relative;
+            left: -35vw;
+        }
+
+        @media screen and (max-width: 700px) {
+            width: 100%;
+            position: relative;
+            height: auto;
+            margin-bottom: -100px;
+            left: 0;
+        }
+    }
+}

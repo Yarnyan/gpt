@@ -1,0 +1,49 @@
+.link {
+    position: absolute;
+    bottom: 80px;
+    left: 50px;
+    color: #FFF;
+    font-family: Ristretto Pro;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.72px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    height: 80px;
+    border: 1px solid rgba($color: #fff, $alpha: 0.17);
+    transition: .3s;
+    z-index: 2;
+    @media screen and (max-width: 1300px) {
+       position: relative;
+       top: 0;
+       left: 0;
+       bottom: 0;
+       right: 0;
+       max-width: 320px;
+       margin: 0 auto;
+       width: 100%;
+       }
+
+    svg {
+        margin-left: 15px;
+        path {
+            transition: .3s;
+        }
+    }
+
+    &:hover {
+        background: #FFCF52;
+        color: #242424;
+
+        svg {
+            path {
+                fill: #242424 !important;
+            }
+        }
+    }
+}

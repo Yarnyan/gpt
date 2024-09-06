@@ -1,0 +1,133 @@
+.section {
+    padding-bottom: 80px;
+}
+
+.tabs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-top: 80px;
+    max-width: 1470px;
+    margin-right: 100px;
+
+    @media screen and (max-width: 1300px) {
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        margin-right: 20px;
+        margin-left: 20px;
+        justify-content: space-between;
+    }
+
+    @media screen and (max-height: 800px) {
+        margin-top: 30px;
+    }
+
+    .item {
+        max-height: 395px;
+        height: 100%;
+        border: 1px solid rgba($color: #fff, $alpha: 0.1);
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 50px 50px 45px;
+        transition: .3s;
+
+        @media screen and (max-width: 1300px) {
+            width: 50%;
+            padding: 20px;
+            text-align: center;
+
+            &:last-child {
+                width: 100%;
+            }
+        }
+
+        .value {
+            font-family: Ristretto Pro;
+            font-size: 177px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-transform: uppercase;
+            transition: .3s;
+            margin-bottom: 40px;
+
+            @media screen and (max-width: 1300px) {
+                color: #FFF;
+                font-family: Ristretto Pro;
+                font-size: 42px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                text-transform: uppercase;
+                text-align: center;
+                margin: 0 auto;
+                margin-bottom: 10px;
+            }
+
+            @media screen and (max-height: 800px) {
+                margin-bottom: 0px;
+            }
+        }
+
+        .text {
+            color: #FFF;
+            font-family: Ristretto Pro;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 0.72px;
+            text-transform: uppercase;
+            transition: .3s;
+            @media screen and (max-width: 1300px) {
+                text-align: center;
+                margin: 0 auto;
+            }
+        }
+
+        &:first-child {
+            border: none;
+            display: block;
+            padding: 0;
+            background: transparent !important;
+            cursor: default !important;
+
+            @media screen and (max-width: 1300px) {
+                width: 100%;
+            }
+        }
+
+
+
+        .title {
+            color: #FFF;
+            font-family: Ristretto Pro;
+            font-size: 70px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 3.5px;
+            text-transform: uppercase;
+            margin-bottom: 25px;
+
+            span {
+                color: #FFCF52;
+            }
+        }
+
+        &:hover {
+            background: #FFCF52;
+            cursor: pointer;
+
+            .value,
+            .text {
+                color: #242424;
+            }
+        }
+    }
+}

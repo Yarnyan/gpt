@@ -1,0 +1,16 @@
+.container {
+    @media screen and (max-width: 700px) {
+        margin-bottom: 20px;
+    }
+}
+
+.container p:nth-child(1) {
+    color: #FFCF52;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.container p:nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+}
