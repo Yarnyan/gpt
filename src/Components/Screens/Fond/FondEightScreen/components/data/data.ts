@@ -1,17 +1,17 @@
 export const indexData = [
     {
         id: 1,
-        subtitle: 'GlobalReach.GlobalReach1.subtitle',
-        title: 'GlobalReach.GlobalReach1.title',
+        subtitle: 'Potential.Potential1.subtitle',
+        title: 'Potential.Potential1.title',
     },
     {
         id: 2,
-        subtitle: 'GlobalReach.GlobalReach2.subtitle',
-        title: 'GlobalReach.GlobalReach2.title',
+        subtitle: 'Potential.Potential2.subtitle',
+        title: 'Potential.Potential2.title',
     },
     {
         id: 3,
-        subtitle: 'GlobalReach.GlobalReach3.subtitle',
-        title: 'GlobalReach.GlobalReach3.title',
+        subtitle: 'Potential.Potential3.subtitle',
+        title: 'Potential.Potential3.title',
     },
 ]

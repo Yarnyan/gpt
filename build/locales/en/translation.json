@@ -103,5 +103,61 @@
             "subtitle": "Seamless Integration",
             "title": "Seamlessly integrate our Smart Manager with your existing CRM and sales tools, creating a unified and efficient sales ecosystem."
         }
+    },
+    "Elevate": {
+        "Elevate1": {
+            "subtitle": "Elevate Your Sales Team's Productivity",
+            "title": "Our Smart Manager can streamline your sales team's productivity, boosting productivity and driving remarkable growth for your business."
+        },
+        "Elevate2": {
+            "subtitle": "Productivity",
+            "title": "Our Smart Manager can streamline your sales team's productivity, boosting productivity and driving remarkable growth for your business."
+        },
+        "Elevate3": {
+            "subtitle": "Growth",
+            "title": "Our Smart Manager can streamline your sales team's productivity, boosting productivity and driving remarkable growth for your business."
+        }
+    },
+    "Potential": {
+        "Potential1": {
+            "subtitle": "Unlock Your Sales Potential",
+            "title": "Our Smart Manager can unlock your sales potential, boosting productivity and driving remarkable growth for your business."
+        },
+        "Potential2": {
+            "subtitle": "Productivity",
+            "title": "Our Smart Manager can streamline your sales team's productivity, boosting productivity and driving remarkable growth for your business."
+        },
+        "Potential3": {
+            "subtitle": "Growth",
+            "title": "Our Smart Manager can streamline your sales team's productivity, boosting productivity and driving remarkable growth for your business."
+        }
+    },
+    "Unlock": {
+        "Unlock1": {
+            "subtitle": "Unlock Your Sales Potential",
+            "title": "Our Smart Manager can unlock your sales potential, boosting productivity and driving remarkable growth for your business."
+        },
+        "Unlock2": {
+            "subtitle": "Productivity",
+            "title": "Our Smart Manager can streamline your sales team's productivity, boosting productivity and driving remarkable growth for your business."
+        },
+        "Unlock3": {
+            "subtitle": "Growth",
+            "title": "Our Smart Manager can streamline your sales team's productivity, boosting productivity and driving remarkable growth for your business."
+        }
+    },
+    "Info": {
+        "Info1": {
+            "subtitle": "Worldwide Accessibility",
+            "title": "Our Smart Manager is designed to support a wide range of languages, enabling you to engage with clients from diverse backgrounds and locations."
+        },
+        "Info2": {
+            "subtitle": "Seamless Translation",
+            "title": "Eliminate language barriers and communicate effortlessly with clients across the globe, thanks to our advanced translation capabilities."
+        },
+        "Info3": {
+            "subtitle": "Personalized Interactions",
+            "title": "Our AI-powered assistant adapts its communication style to each client, ensuring a personalized and engaging experience."
+        }
     }
 }

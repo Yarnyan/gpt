@@ -1,17 +1,17 @@
 export const indexData = [
     {
         id: 1,
-        subtitle: 'Redefine.Redefine1.subtitle',
-        title: 'Redefine.Redefine1.title',
+        subtitle: 'Elevate.Elevate1.subtitle',
+        title: 'Elevate.Elevate1.title',
     },
     {
         id: 2,
-        subtitle: 'Redefine.Redefine2.subtitle',
-        title: 'Redefine.Redefine2.title',
+        subtitle: 'Elevate.Elevate2.subtitle',
+        title: 'Elevate.Elevate2.title',
     },
     {
         id: 3,
-        subtitle: 'Redefine.Redefine3.subtitle',
-        title: 'Redefine.Redefine3.title',
+        subtitle: 'Elevate.Elevate3.subtitle',
+        title: 'Elevate.Elevate3.title',
     },
 ]
