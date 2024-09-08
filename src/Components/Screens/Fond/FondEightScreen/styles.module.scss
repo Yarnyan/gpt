@@ -29,23 +29,16 @@
 
     .image {
         position: absolute;
-        bottom: 16%;
-        right: 6%;
-        height: auto;
-        width: 40%;
-        border-radius: 24px;
-
+        bottom: 0px;
+        right: 0;
+    
         @media screen and (max-width: 1300px) {
             position: relative;
-            left: -35vw;
-        }
-
-        @media screen and (max-width: 700px) {
             width: 100%;
-            position: relative;
+            right: 0;
             height: auto;
-            margin-bottom: -100px;
-            left: 0;
+            bottom: 0;
+            margin-bottom: 20px;
         }
     }
 }

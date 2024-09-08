@@ -33,7 +33,7 @@ function FondFifthScreen() {
 
                     {
                         !match ?
-                            <img src={imgDiag} alt="" className={styles.image} /> :
+                            <img src={img} alt="" className={styles.image} /> :
                             <img src={imgMob} alt="" className={styles.image} />
                     }
                     <div className={styles.RedefineContainer}>

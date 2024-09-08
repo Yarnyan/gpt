@@ -2,9 +2,12 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
-
+    .icon {
+        width: 24px;
+        height: 24px;
+    }
     .tab {
-        width: 50%;
+        width: 100% !important;
         position: relative;
         height: 22vh;
         max-height: 205px;
@@ -24,46 +27,50 @@
         line-height: normal;
         letter-spacing: 0.72px;
         text-transform: uppercase;
+        transition: .5s;
 
-        &:last-child {
-            width: 100%;
-            height: 12vh;
-            max-width: 314px;
-        }
+        // &:last-child {
+        //     width: 100%;
+        //     height: 12vh;
+        //     max-width: 314px;
+        // }
 
-        &:nth-child(2) {
-            border-left: none;
-        }
+        // &:nth-child(2) {
+        //     border-left: none;
+        // }
 
-        .firstTabBg {
-            position: absolute;
-            top: 0;
-            right: -1px;
-            width: 100%;
-            height: 100%;
+        // .firstTabBg {
+        //     position: absolute;
+        //     top: 0;
+        //     right: -1px;
+        //     width: 100%;
+        //     height: 100%;
 
-            svg {
-                position: absolute;
-                bottom: 0;
-                right: 0;
-                height: 100%;
-                // transform: scaleY(1.05);
-            }
-        }
+        //     svg {
+        //         position: absolute;
+        //         bottom: 0;
+        //         right: 0;
+        //         height: 100%;
+        //         // transform: scaleY(1.05);
+        //     }
+        // }
 
         &.active {
             background: rgba($color: #fff, $alpha: 0.05);
         }
 
-        &.first {
-            max-width: none;
-            width: 60%;
-            padding-left: 120px;
-        }
+        // &.first {
+        //     max-width: none;
+        //     width: 60%;
+        //     padding-left: 120px;
+        // }
 
         .title {
             margin-top: 15px;
         }
+    }
+    .tab:hover {
+        background: rgba($color: #fff, $alpha: 0.05);
     }
 }
 

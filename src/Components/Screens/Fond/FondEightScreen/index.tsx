@@ -1,7 +1,6 @@
 import styles from './styles.module.scss'
-import img from '../../../../assets/img/fond-seventh-img.png'
-import invest from '../../../../assets/img/Invest.png'
-import imgMob from '../../../../assets/img/fond-seventh-img-mob.png'
+import img from '../../../../assets/img/fond-fourth-img.png'
+import imgMob from '../../../../assets/img/fond-fourth-img-mob.png'
 import { useTranslation } from 'react-i18next';
 import RedirectionButton from '../../../RedirectionButton';
 import { useMediaQuery } from 'react-responsive';
@@ -35,7 +34,8 @@ function FondEightScreen() {
                     >{t("fondNineScreen.title")}</motion.h2>
                     {
                         !match ?
-                            <img src={invest} alt="" className={styles.image} /> : null
+                            <img className={styles.image} src={img} alt="background" /> :
+                            <img className={styles.image} src={imgMob} alt="background" />
                     }
                     <div className={styles.RedefineContainer}>
                         {indexData.map((item) => {

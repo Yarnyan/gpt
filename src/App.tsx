@@ -9,13 +9,9 @@ import MobileMenu from './Components/MobileMenu';
 function App() {
   
   const LazyMainPage = React.lazy(() => import('./Pages/Main'));
-  const LazyBotPage = React.lazy(() => import('./Pages/Bot'));
-  const LazyAboutPage = React.lazy(() => import('./Pages/About'));
   const LazyFondPage = React.lazy(() => import('./Pages/Fond'));
-  const LazyContactsPage = React.lazy(() => import('./Pages/Contacts'));
-  const LazyReviewsPage = React.lazy(() => import('./Pages/Reviews'));
-  const LazyNewsPage = React.lazy(() => import('./Pages/News'));
-  const LazyFAQPage = React.lazy(() => import('./Pages/faq'));
+  const LazyVersatilityPage = React.lazy(() => import('./Pages/Versatility'));
+  const LazyManagerPage = React.lazy(() => import('./Pages/Manager'));
 
   const { registerContainer } = useActiveMenu();
 
@@ -30,12 +26,8 @@ function App() {
           <Suspense>
             <LazyMainPage />
             <LazyFondPage />
-            {/* <LazyBotPage />
-            <LazyAboutPage />
-            <LazyNewsPage />
-            <LazyReviewsPage />
-            <LazyFAQPage />
-            <LazyContactsPage /> */}
+            <LazyVersatilityPage />
+            <LazyManagerPage />
           </Suspense>
         </div>
         {

@@ -10,17 +10,13 @@ function Navbar() {
 
     const { t } = useTranslation();
 
-    const pages = ['main', 'fond', 'bot', 'about', 'news', 'reviews', 'faq', 'contacts']
+    const pages = ['main', 'availability', 'versatility', 'Smart Manager' ]
 
     const lines = {
         main: ['', ''],
-        fond: ['', '', '', '', '', '', ''],
-        bot: ['', '', '', ''],
-        about: ['', '', '', '', ''],
-        news: [''],
-        reviews: [''],
-        faq: [''],
-        contacts: [''],
+        availability: ['', '', '', '', '', ''],
+        versatility: ['', ''],
+        manager: [''],
     }
 
     const [activeIndex, setActiveIndex] = useState(0);
@@ -75,8 +71,9 @@ function Navbar() {
             }} offset={0} className={styles.content} items={pages} currentClassName={styles.active} rootEl='.content' componentTag={'div'}>
                 {
                     Tabs.map(({ id, title, icon, to }: TTabs) => {
+                        console.log(to)
                         return (
-                            <a href={"#" + (to !== '/' ? to.substring(1) : 'main')} key={id} className={`${styles.tab} ${id === 1 ? styles.first : ''}`} style={{ gridArea: to !== '/' ? to.substring(1) : 'main' }}>
+                            <a href={"#" + (to !== '/' ? to.substring(1) : 'main')} key={id} className={`${styles.tab}`} style={{ gridArea: to !== '/' ? to.substring(1) : 'main' }}>
                                 <img className={styles.icon} src={icon} alt={title} />
                                 <p className={styles.title}>{t(`navbar.${to === '/' ? 'main' : to.substring(1)}`)}</p>
                             </a>

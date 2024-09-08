@@ -1,106 +1,16 @@
 {
     "navbar": {
         "main": "Home",
-        "profile": "Personal account",
-        "fond": "Fund",
-        "bot": "Trading bot",
-        "about": "About us",
-        "news": "News",
-        "reviews": "Reviews",
-        "faq": "FAQ",
-        "contacts": "Contacts"
+        "availability": "Availability",
+        "versatility": "Versatility",
+        "manager": "Smart Manager"
     },
     "mainFirstScreen": {
         "text": "Digital asset preservation and Augmentation platform"
     },
     "mainSecondScreen": {
         "tradingBotText": "Unlock Sales Efficiency with Our GPT-4 Powered Smart Manager",
-        "title": "Introducing a revolutionary sales management solution that harnesses the power of GPT-4 to streamline your operations, boost productivity, and drive remarkable growth for your business",
-        "buttonText": "More about Trading Bot"
-    },
-    "botFirstScreen": {
-        "title": "AMI FINANCE TRADING BOT",
-        "subtitle": "Managing your assets with artificial intelligence",
-        "pluses": {
-            "first": "FULL AUTOMATION",
-            "second": "HIGH INCOME"
-        }
-    },
-    "botSecondScreen": {
-        "title": {
-            "span": "LET'S CONNECT A TRADING BOT",
-            "text": "To THE BEST CRYPTO SERVICES"
-        },
-        "subtitle": "using API integration",
-        "text": "You will be able to entrust transactions to a smart bot, whose work is based on artificial intelligence",
-        "buttonText": "Connect the bot"
-    },
-    "botThirdScreen": {
-        "title": {
-            "text_first_part": "TRADING BOT",
-            "span": "AMI FINANCE",
-            "text_second_part": "IN NUMBERS"
-        },
-        "tabs": {
-            "tab1": "monthly yield",
-            "tab2": "capital protection",
-            "tab3": "monthly yield",
-            "tab4": "capital protection",
-            "tab5": "monthly yield"
-        }
-    },
-    "botFourthScreen": {
-        "title": "CONNECT TO AMI FINANCE TRADING BOT",
-        "buttonText": "Start"
-    },
-    "aboutFirstScreen": {
-        "title": "About US",
-        "subtitle": "Our goal is to become the most profitable investment fund in the world",
-        "text": "– a closed community that helps its clients to save and increase capital",
-        "span": "AMI FINANCE",
-        "buttonText": "Go to your personal account"
-    },
-    "aboutSecondScreen": {
-        "title": "AMI FINANCE",
-        "subtitle": "is the first and only fund that gives individuals access to the world of high-yield financial instruments",
-        "text": {
-            "part1": "Our team of professional traders and analysts consistently generates profits both through the classic stock market and through the digital asset market",
-            "part2": "Our mission is to help you feel confident in the future, realize your dreams and feel freedom through improving the quality of life"
-        },
-        "buttonText": "Go to your personal account"
-    },
-    "aboutThirdScreen": {
-        "title": {
-            "part1": "ABOUT",
-            "span": "AMI FINANCE",
-            "part2": "IN NUMBERS"
-        },
-        "pluses": {
-            "1": "YEARS ON THE MARKET",
-            "2": "satisfied investors",
-            "3": "monthly profitability",
-            "4": "investor income",
-            "5": "capital protection",
-            "6": "professional investors and analysts"
-        }
-    },
-    "aboutFourthScreen": {
-        "title": {
-            "text": "OUR INVESTORS EARNED MORE",
-            "span": "$10,000,000"
-        },
-        "pluses": {
-            "first": "stable monthly return",
-            "second": "investment protection"
-        }
-    },
-    "aboutFifthScreen": {
-        "title": {
-            "part1": "USE",
-            "span": "ARTIFICIAL INTELLIGENCE",
-            "part2": "IN TRADING STRATEGIES"
-        },
-        "buttonText": "Go to your personal account"
+        "title": "Introducing a revolutionary sales management solution that harnesses the power of GPT-4 to streamline your operations, boost productivity, and drive remarkable growth for your business"
     },
     "fondFirstScreen": {
         "title": {
@@ -113,64 +23,30 @@
     },
     "fondThirdScreen": {
         "title": "Multilingual Mastery for Global Reach",
-        "subtitle": "We follow trends, develop and use our own latest strategies",
-        "buttonText": "Connect to the fund"
+        "subtitle": "We follow trends, develop and use our own latest strategies"
     },
     "fondFourthScreen": {
         "title": {
-            "text": "Automation Meets Intelligent Communication",
-            "span": "WITHOUT RISKS"
-        },
-        "subtitle": "Our team of analysts will assemble a balanced and stable portfolio",
-        "buttonText": "Connect to the fund"
+            "text": "Automation Meets Intelligent Communication"
+        }
     },
     "fondFifthScreen": {
-        "title": "Data-Driven Insights for Better Decision-Making",
-        "steps": {
-            "first": "Registration in the personal account",
-            "second": "Replenishment of the balance",
-            "third": "Connecting a suitable deposit by pressing one button"
-        }
+        "title": "Data-Driven Insights for Better Decision-Making"
     },
     "fondSixthScreen": {
         "title": {
             "text_first_part": "Elevate Your Sales Team's Productivity"
-        },
-        "tabs": {
-            "tab1": "monthly yield",
-            "tab2": "capital protection",
-            "tab3": "monthly yield",
-            "tab4": "capital protection",
-            "tab5": "monthly yield"
         }
     },
     "fondSeventhScreen": {
-        "title": "CONNECT TO AMI FINANCE FUND",
-        "buttonText": "Start"
+        "title": "CONNECT TO SMART MANAGER",
+        "buttonText": "Connect"
+    },
+    "fondEightScreen": {
+        "title": "Unparalleled Return on Investment"
     },
     "fondNineScreen": {
         "title": "Unlock Your Sales Potential with Our Smart Manager"
-    },
-    "contactsScreen": {
-        "title": "OUR CONTACTS",
-        "contactsItems": {
-            "first": "Address",
-            "second": "E-mail",
-            "third": "Telegram"
-        },
-        "buttonText": "Contact us"
-    },
-    "reviews": {
-        "title": "REVIEWS",
-        "subtitle": "Here you can find the current reviews of our customers"
-    },
-    "news": {
-        "title": "NEWS",
-        "subtitle": "This section contains the latest company news"
-    },
-    "faq": {
-        "title": "FAQ",
-        "subtitle": "Here you can get answers to the most frequent questions"
     },
     "Pros": {
         "Pros1": {

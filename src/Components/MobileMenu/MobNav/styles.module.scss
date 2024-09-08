@@ -25,13 +25,13 @@
         text-transform: uppercase;
         height: calc((100vh - 80px) / 5);
 
-        &:last-child {
-            width: 100%;
-        }
+        // &:last-child {
+        //     width: 100%;
+        // }
 
-        &:nth-child(2) {
-            border-left: none;
-        }
+        // &:nth-child(2) {
+        //     border-left: none;
+        // }
 
         .firstTabBg {
             position: absolute;
@@ -53,15 +53,15 @@
             background: rgba($color: #fff, $alpha: 0.05);
         }
 
-        &.first {
-            max-width: none;
-            width: 60%;
-            padding-left: 120px;
-            @media screen and (max-width: 1300px) {
-                padding-left: 0;
-                width: 50%;
-              }
-        }
+        // &.first {
+        //     max-width: none;
+        //     width: 60%;
+        //     padding-left: 120px;
+        //     @media screen and (max-width: 1300px) {
+        //         padding-left: 0;
+        //         width: 50%;
+        //       }
+        // }
 
         .title {
             margin-top: 15px;
